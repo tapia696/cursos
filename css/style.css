@@ -1,16 +1,43 @@
 *{
     background-color: rgb(193, 214, 223);
-    font-family: Verdana;
+
 }
 
+:root{
+    --very-light-pink:#C7C7C7;
+    --text-input-field: #F7F7F7;
+    --hospital-green: #ACD9B2;
+    --white: #FFFFFF;
+    --black: #000000; 
+}
+body{
+    font-family: 'Quicksand', sans-serif;
+    width: auto;
+    margin: 150px;
+}
+h1{
+    text-align: center;
+    margin: 70px;
+}
+main{
+    
+margin: 60px;
+}
+main ul:nth-child(1){
+    display: flex;
+    justify-content: space-between;
+}
 .titles {
     font-size: 18px;
-
+    text-align: left;
 }
 .titles ol {
+    margin: 12px;
     font-size: 14px;
+    right: 0;
     
 }
+
 
 a{
     text-decoration: none;
@@ -18,4 +45,11 @@ a{
 a:hover{
     font-size: 130%;
     color: white;
+    border: 1px solid var(--black);
+    border-radius: 25%;
+}
+
+footer{
+    
+text-align: center;
 }
