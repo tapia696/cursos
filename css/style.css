@@ -1,0 +1,21 @@
+*{
+    background-color: rgb(193, 214, 223);
+    font-family: Verdana;
+}
+
+.titles {
+    font-size: 18px;
+
+}
+.titles ol {
+    font-size: 14px;
+    
+}
+
+a{
+    text-decoration: none;
+}
+a:hover{
+    font-size: 130%;
+    color: white;
+}
