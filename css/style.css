@@ -53,3 +53,21 @@ footer{
     
 text-align: center;
 }
+
+@media (max-width: 700px){
+    main ul:nth-child(1){
+    display: grid;
+    width: auto;
+   
+    }
+    body {
+    
+        margin: 0px;
+        }
+    footer{
+        display: grid;
+        margin: 6px;
+        width: 50%;
+
+    }
+}
