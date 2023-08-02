@@ -52,8 +52,31 @@ a:hover{
 footer{
     
 text-align: center;
+width: 70%;
 }
-
+figure{
+    
+display: flex;
+    
+justify-content: space-around;
+    
+flex-wrap: nowrap;
+    
+/* width: 843px; */
+    
+align-items: center;
+}
+img{
+    border-radius: 20px;
+    width: 29%;
+    margin: 20px;
+}
+img:hover{
+    width: 39%;
+}
+.video1{
+    /* width: 100%; */
+}
 @media (max-width: 700px){
     main ul:nth-child(1){
     display: grid;
