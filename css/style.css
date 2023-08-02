@@ -58,7 +58,7 @@ figure{
     
 display: flex;
     
-justify-content: space-around;
+justify-content: flex-start;
     
 flex-wrap: nowrap;
     
@@ -92,5 +92,8 @@ img:hover{
         margin: 6px;
         width: 50%;
 
+    }
+    figure{
+        flex-direction: column;
     }
 }
